@@ -1,0 +1,409 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+         <link href="../images/favicon.jpeg" rel="icon">
+         <title>Mobile App Development Services | Scalable, Fast & Custom Apps | Postax Technology</title>
+          <meta name="title" content="Mobile App Development Services | Scalable, Fast & Custom Apps | Postax Technology">
+          <meta name="description" content="Create high-performance mobile apps with Postax Technology. We deliver custom, secure, cross-platform apps that fuel business growth.">
+          <meta name="keywords" content="mobile app development, iOS app, android app, flutter app, react native development, cross-platform mobile app, custom app development, mobile UX, app performance, Postax mobile services">
+          <meta property="og:title" content="Mobile App Development Services | Postax Technology">
+          <meta property="og:description" content="Build secure, scalable and user-friendly mobile apps for iOS & Android with Postax. Focused on speed, UX, and business growth.">
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="../css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="../css/templatemo-topic-listing.css" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+ <body id="top">
+
+     <main>
+
+                 <nav class="navbar navbar-expand-lg">
+    <div class="container">
+          <a class="navbar-brand" href="../">
+            <img src="../images/logo.png" alt="YourCompany Logo" height="100px" width="100px">
+        </a>
+
+        <div class="d-lg-none ms-auto me-4">
+            <a href="#contact" class="navbar-icon bi-person smoothscroll"></a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="../">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="../">Offerings</a>
+                </li>
+
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Our Services</a>
+
+                    <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../website-development">Website Development</a></li>
+                          <li><a class="dropdown-item" href="../mobile-development">Mobile App Development</a></li>
+                            <li><a class="dropdown-item" href="../ui-ux">UI / UX Design</a></li>
+                            <li><a class="dropdown-item" href="../digital-marketing">Digital Marketing</a></li>
+                            <li><a class="dropdown-item" href="../lead-generation">Lead Generation</a></li>
+                        <li><a class="dropdown-item" href="../crm">CRM</a></li>
+                      
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="../">Our Process</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="../">FAQ</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="../contact">Contact</a>
+                </li>
+
+            </ul>
+
+            <div class="d-none d-lg-block">
+                <a href="#contact" class="navbar-icon bi-person smoothscroll"></a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<header class="site-header d-flex flex-column justify-content-center align-items-center" 
+        style="background: linear-gradient(135deg, #ff8080, #ff0000); padding: 100px 0; color: #fff;">
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+
+      <div class="col-lg-5 col-12 mt-5 text-center text-lg-start">
+        <h2 style="font-size: 40px; font-weight: 700; line-height: 1.3;">
+          Elevate Your Business <br> with Custom Mobile Apps
+        </h2>
+        <p style="margin-top: 15px; font-size: 16px; color:#fff">
+          Build fast, scalable, and engaging mobile applications for iOS and Android that drive growth and customer loyalty.
+        </p>
+
+          <div class="d-flex align-items-center mt-4">
+         <a href="../contact" style="background-color: #ff0000; color: #fff; padding: 10px 24px; font-weight: 600; border-radius: 30px; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;"><i class="bi bi-chat-dots-fill"></i> Free Consultation</a>
+            </div>
+      </div>
+
+      <div class="col-lg-5 col-12 mt-5">
+        <div class="topics-detail-block bg-white shadow-lg" style="border-radius: 20px; padding: 20px;">
+          <img src="../images/mobilelanding.AVIF" class="topics-detail-block-image img-fluid" alt="Mobile app illustration">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="popupForm" style="display: none; position: fixed; z-index: 9999; top: 0; left: 0; 
+     width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.6); 
+     justify-content: center; align-items: center;">
+
+  <div style="background: #fff; padding: 25px 30px; border-radius: 15px; width: 350px; 
+              box-shadow: 0 10px 30px rgba(0,0,0,0.15); position: relative; font-family: Arial, sans-serif;">
+      
+      <button onclick="closePopup()" 
+              style="position: absolute; top: 12px; right: 15px; background: transparent; border: none; 
+                     font-size: 26px; color: #999; cursor: pointer; line-height: 1;">&times;</button>
+
+      <h3 style="margin-bottom: 20px; text-align: center; color: #333; font-weight: 700;">Contact Us</h3>
+
+      <form onsubmit="event.preventDefault(); alert('Form submitted!'); closePopup();">
+          <label for="name" style="font-weight: 600; color: #555;">Name:</label>
+          <input type="text" id="name" required
+                 style="width: 100%; padding: 8px 12px; margin: 6px 0 15px 0; border: 1px solid #ccc; border-radius: 8px;">
+
+          <label for="email" style="font-weight: 600; color: #555;">Email:</label>
+          <input type="email" id="email" required
+                 style="width: 100%; padding: 8px 12px; margin: 6px 0 15px 0; border: 1px solid #ccc; border-radius: 8px;">
+
+          <label for="phone" style="font-weight: 600; color: #555;">Phone Number:</label>
+          <input type="tel" id="phone" required
+                 style="width: 100%; padding: 8px 12px; margin: 6px 0 15px 0; border: 1px solid #ccc; border-radius: 8px;">
+
+          <label for="query" style="font-weight: 600; color: #555;">Your Query:</label>
+          <textarea id="query" rows="3" required
+                    style="width: 100%; padding: 8px 12px; margin: 6px 0 20px 0; border: 1px solid #ccc; border-radius: 8px; resize: none;"></textarea>
+
+          <button type="submit" 
+                  style="background-color: #ff0000; color: #fff; padding: 10px 0; width: 100%; 
+                         border: none; border-radius: 30px; font-weight: 700; cursor: pointer; font-size: 16px;">
+            Submit
+          </button>
+      </form>
+  </div>
+</div>
+</header>
+
+<section id="services" style="background-color: #fff; padding: 60px 15px;">
+  <div style="max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
+
+    <div style="flex: 1 1 300px; background: #ff8080; border-radius: 16px; padding: 30px; color: #fff; box-shadow: 0 6px 15px rgba(0,0,0,0.1);">
+      <h3 style="margin-bottom: 15px; color:#fff;">Custom App Development</h3>
+      <p style="color:#fff;">Tailored solutions built around your business goals to create a unique mobile experience.</p>
+    </div>
+
+    <div style="flex: 1 1 300px; background: #ff0000; border-radius: 16px; padding: 30px; color: #fff; box-shadow: 0 6px 15px rgba(0,0,0,0.1);">
+      <h3 style="margin-bottom: 15px; color: #fff;">Cross-Platform Apps</h3>
+      <p style="color:#fff;">Seamless apps for both iOS and Android using Flutter and React Native for faster delivery.</p>
+    </div>
+
+    <div style="flex: 1 1 300px; background: #ff8080; border-radius: 16px; padding: 30px; color: #fff; box-shadow: 0 6px 15px rgba(0,0,0,0.1);">
+      <h3 style="margin-bottom: 15px; color:#fff;">User-Centered Design</h3>
+      <p style="color:#fff;">Intuitive UI/UX that engages users and enhances retention across your app’s lifecycle.</p>
+    </div>
+
+  </div>
+</section>
+
+<section style="background: #ff0000; padding: 60px 15px; color: #fff; text-align: center;">
+  <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 20px;">Ready to Launch Your App?</h2>
+  <p style="max-width: 700px; margin: 0 auto 30px; font-size: 1.2rem; color:#fff;">
+    Partner with us to create a mobile app that delights users and grows your business. Fast turnaround, transparent process, and ongoing support.
+  </p>
+  <a href="../contact" style="background-color: #fff; color: #ff0000; padding: 14px 36px; font-weight: 700; border-radius: 30px; text-decoration: none;">
+    Contact Us Today
+  </a>
+</section>
+<section id="mobile-app-detail" style="background-color: #fff; padding: 60px 20px; border-bottom:1px solid #ff0000;">
+  <div style="max-width: 1100px; margin: auto;">
+
+    <h2 style="text-align: center; font-size: 36px; color: #ff0000; margin-bottom: 20px;">
+      Mobile Apps That Drive Business Growth
+    </h2>
+    <p style="text-align: center; color: #333; font-size: 18px; margin-bottom: 50px;">
+      Fast, scalable, and user-friendly mobile apps that boost engagement and customer loyalty.
+    </p>
+
+    <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 40px;">
+      <div style="font-size: 40px; color: #ff0000;">
+        <i class="bi bi-speedometer2"></i>
+      </div>
+      <div>
+        <h4 style="margin: 0; color: #ff0000;">Lightning Fast Performance</h4>
+        <p style="margin: 8px 0 0; color: #444;">Our apps deliver smooth, quick responses to keep your users happy and engaged.</p>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 40px;">
+      <div style="font-size: 40px; color: #ff8080;">
+        <i class="bi bi-phone-fill"></i>
+      </div>
+      <div>
+        <h4 style="margin: 0; color: #ff0000;">Cross-Platform Compatibility</h4>
+        <p style="margin: 8px 0 0; color: #444;">We build apps that work seamlessly on both iOS and Android devices.</p>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 40px;">
+      <div style="font-size: 40px; color: #ff0000;">
+        <i class="bi bi-shield-lock-fill"></i>
+      </div>
+      <div>
+        <h4 style="margin: 0; color: #ff0000;">Secure & Reliable</h4>
+        <p style="margin: 8px 0 0; color: #444;">Our apps follow best security practices to protect your data and users.</p>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 40px;">
+      <div style="font-size: 40px; color: #ff8080;">
+        <i class="bi bi-bar-chart-line-fill"></i>
+      </div>
+      <div>
+        <h4 style="margin: 0; color: #ff0000;">Analytics & Growth</h4>
+        <p style="margin: 8px 0 0; color: #444;">Track user behavior and optimize your app for maximum ROI.</p>
+      </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 50px;">
+      <a href="javascript:void(0)" onclick="openPopup()" style="background-color: #ff0000; color: #fff; padding: 14px 28px; border-radius: 30px; font-size: 18px; text-decoration: none;">
+        Build Your App Now
+      </a>
+    </div>
+
+  </div>
+</section>
+
+  <section class="contact-section section-padding section-bg" id="section_5" style="padding: 80px 0; background-color: #f9f9f9;">
+  <div class="container" style="max-width: 1140px; margin: 0 auto;">
+    <div class="row">
+
+      <div class="col-lg-12 col-12 text-center">
+        <h2 class="mb-5" style="font-size: 36px; color: #e60000;">Get in touch</h2>
+      </div>
+
+      <div class="col-lg-6 col-12 mb-4">
+        <form style="background: #fff; padding: 30px; border-radius: 16px; box-shadow: 0 6px 18px rgba(0,0,0,0.1);">
+          <div style="margin-bottom: 20px;">
+            <label for="name" style="display:block; margin-bottom:6px; font-weight:600;">Name:</label>
+            <input type="text" id="name" placeholder="Your Name" style="width: 100%; padding: 10px 15px; border: 1px solid #ccc; border-radius: 8px;">
+          </div>
+          <div style="margin-bottom: 20px;">
+            <label for="email" style="display:block; margin-bottom:6px; font-weight:600;">Email:</label>
+            <input type="email" id="email" placeholder="Your Email" style="width: 100%; padding: 10px 15px; border: 1px solid #ccc; border-radius: 8px;">
+          </div>
+          <div style="margin-bottom: 20px;">
+            <label for="phone" style="display:block; margin-bottom:6px; font-weight:600;">Phone:</label>
+            <input type="tel" id="phone" placeholder="Your Phone Number" style="width: 100%; padding: 10px 15px; border: 1px solid #ccc; border-radius: 8px;">
+          </div>
+          <div style="margin-bottom: 20px;">
+            <label for="query" style="display:block; margin-bottom:6px; font-weight:600;">Query:</label>
+            <textarea id="query" rows="4" placeholder="Your Message" style="width: 100%; padding: 10px 15px; border: 1px solid #ccc; border-radius: 8px;"></textarea>
+          </div>
+          <button type="submit" style="background: #e60000; color: #fff; padding: 10px 24px; border: none; border-radius: 30px; font-weight: 600; font-size: 16px; cursor: pointer;">
+            Submit
+          </button>
+        </form>
+      </div>
+
+ <div class="col-lg-6 col-12 mb-4 d-flex justify-content-center align-items-center">
+  <div style="display: flex; gap: 30px; flex-wrap: wrap; justify-content: center;">
+
+    <div style="text-align: center;">
+      <a href="tel:1234567890" style="display: inline-block; background: linear-gradient(135deg, #ff8080, #ff0000); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <i class="bi bi-telephone-fill"></i>
+      </a>
+      <p style="margin-top: 10px; font-size: 14px;">Call Us</p>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="#" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #f58529, #dd2a7b); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <p style="margin-top: 10px; font-size: 14px;">Instagram</p>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="#" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #1877f2, #004cba); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <p style="margin-top: 10px; font-size: 14px;">Facebook</p>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="#" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #0077b5, #004c70); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <p style="margin-top: 10px; font-size: 14px;">LinkedIn</p>
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+   <footer class="site-footer section-padding">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-12 pb-2">
+                <a class="navbar-brand mb-2" href="index.html">
+                    <img src="../images/logo.png" alt="Postax Technology" height="100px" width="100px">
+                </a>
+                <p class="text-white">Innovative digital solutions tailored for your business growth.</p>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <h6 class="site-footer-title mb-3">Quick Links</h6>
+             <ul class="site-footer-links">
+                    <li class="site-footer-link-item">
+                        <a href="../" class="site-footer-link">Home</a>
+                    </li>
+                    <li class="site-footer-link-item">
+                        <a href="../" class="site-footer-link">How It Works</a>
+                    </li>
+                    <li class="site-footer-link-item">
+                        <a href="../" class="site-footer-link">FAQs</a>
+                    </li>
+                    <li class="site-footer-link-item">
+                        <a href="../contact" class="site-footer-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+       <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+                <h6 class="site-footer-title mb-3 text-center">Contact Info</h6>
+                
+                  <p class="text-white d-flex"><a href="mailto:postaxtechnology@gmail.com" class="site-footer-link"><i class="fa-solid fa-envelope"></i> postaxtechnology@gmail.com</a>
+                </p>
+                  <div style="display: flex; gap: 30px; flex-wrap: wrap; justify-content: center;">
+
+    <div style="text-align: center;">
+      <a href="#" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #f58529, #dd2a7b); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <p style="margin-top: 10px; font-size: 14px;">Instagram</p>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="#" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #1877f2, #004cba); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <p style="margin-top: 10px; font-size: 14px;">Facebook</p>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="#" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #0077b5, #004c70); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <p style="margin-top: 10px; font-size: 14px;">LinkedIn</p>
+    </div>
+
+  </div>
+            
+            </div>
+
+            <div class="col-lg-12 col-md-4 col-12 mt-lg-0 ms-auto">
+               
+                <p class="copyright-text mt-lg-5 mt-4">
+                    &copy; 2025 Postax Technology. All rights reserved.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+            <script>
+     function openPopup() {
+    document.getElementById('popupForm').style.display = 'flex';
+  }
+  function closePopup() {
+    document.getElementById('popupForm').style.display = 'none';
+  }
+</script>
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="../js/jquery.sticky.js"></script>
+        <script src="../js/custom.js"></script>
+    </body>
+</html>

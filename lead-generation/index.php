@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+         <link href="../images/favicon.jpeg" rel="icon">
+         <title>Lead Generation Services | Targeted Campaigns That Convert | Postax Technology</title>
+          <meta name="title" content="Lead Generation Services | Targeted Campaigns That Convert | Postax Technology">
+          <meta name="description" content="Attract and convert high-quality leads with Postax. From lead magnets and email automation to CRM integration, we build funnels that work.">
+          <meta name="keywords" content="lead generation, B2B lead generation, lead nurturing, CRM automation, email marketing, sales funnel, conversion optimization, Postax Technology, lead capture, targeted marketing">
+          <meta property="og:title" content="Lead Generation Services | Targeted Campaigns That Convert | Postax Technology">
+          <meta property="og:description" content="Postax helps you fill your pipeline with qualified leads using proven strategies like email automation, funnel optimization, and CRM workflows.">
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="../css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="../css/templatemo-topic-listing.css" rel="stylesheet">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--
+
+TemplateMo 590 topic listing
+
+https://templatemo.com/tm-590-topic-listing
+
+-->
+    </head>
+    
+    <body id="top">
+
+        <main>
+
+                 <nav class="navbar navbar-expand-lg">
+    <div class="container">
+          <a class="navbar-brand" href="../">
+            <img src="../images/logo.png" alt="YourCompany Logo" height="100px" width="100px">
+        </a>
+
+        <div class="d-lg-none ms-auto me-4">
+            <a href="#contact" class="navbar-icon bi-person smoothscroll"></a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="../">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="../">Offerings</a>
+                </li>
+
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Our  Services</a>
+
+                    <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../website-development">Website Development</a></li>
+                          <li><a class="dropdown-item" href="../mobile-development">Mobile App Development</a></li>
+                            <li><a class="dropdown-item" href="../ui-ux">UI / UX Design</a></li>
+                            <li><a class="dropdown-item" href="../digital-marketing">Digital Marketing</a></li>
+                            <li><a class="dropdown-item" href="../lead-generation">Lead Generation</a></li>
+                        <li><a class="dropdown-item" href="../crm">CRM</a></li>
+                      
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="../">Our Process</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="../">FAQ</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="../contact">Contact</a>
+                </li>
+
+            </ul>
+
+            <div class="d-none d-lg-block">
+                <a href="#contact" class="navbar-icon bi-person smoothscroll"></a>
+            </div>
+        </div>
+    </div>
+</nav>
+            
+<header class="site-header d-flex flex-column justify-content-center align-items-center" style="background: linear-gradient(135deg, #ff8080, #ff0000); padding: 100px 0; color: #fff;">
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+
+      <div class="col-lg-5 col-12 mt-5 text-center text-lg-start">
+        <h2 style="font-size: 40px; font-weight: 700; line-height: 1.3;">
+          Generate Quality Leads <br> with Proven Strategies
+        </h2>
+        <p style="margin-top: 15px; font-size: 16px; color:#fff;">
+          Attract, nurture, and convert your ideal customers with data-driven lead generation solutions.
+        </p>
+
+       <div class="d-flex align-items-center mt-4">
+                       <a href="../contact" style="background-color: #ff0000; color: #fff; padding: 10px 24px; font-weight: 600; border-radius: 30px; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;"><i class="bi bi-chat-dots-fill"></i> Free Consultation</a>
+                </div>
+      </div>
+
+      <div class="col-lg-5 col-12 mt-5">
+        <div class="topics-detail-block bg-white shadow-lg" style="border-radius: 20px; padding: 20px;">
+          <img src="../images/service6.AVIF" class="topics-detail-block-image img-fluid" alt="Lead Generation illustration">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="popupForm" style="display: none; position: fixed; z-index: 9999; top: 0; left: 0; 
+     width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.6); 
+     justify-content: center; align-items: center;">
+
+  <div style="background: #fff; padding: 25px 30px; border-radius: 15px; width: 350px; 
+              box-shadow: 0 10px 30px rgba(0,0,0,0.15); position: relative; font-family: Arial, sans-serif;">
+      
+      <button onclick="closePopup()" 
+              style="position: absolute; top: 12px; right: 15px; background: transparent; border: none; 
+                     font-size: 26px; color: #999; cursor: pointer; line-height: 1;">&times;</button>
+
+      <h3 style="margin-bottom: 20px; text-align: center; color: #333; font-weight: 700;">Contact Us</h3>
+
+      <form onsubmit="event.preventDefault(); alert('Form submitted!'); closePopup();">
+          <label for="name" style="font-weight: 600; color: #555;">Name:</label>
+          <input type="text" id="name" required
+                 style="width: 100%; padding: 8px 12px; margin: 6px 0 15px 0; border: 1px solid #ccc; border-radius: 8px;">
+
+          <label for="email" style="font-weight: 600; color: #555;">Email:</label>
+          <input type="email" id="email" required
+                 style="width: 100%; padding: 8px 12px; margin: 6px 0 15px 0; border: 1px solid #ccc; border-radius: 8px;">
+
+          <label for="phone" style="font-weight: 600; color: #555;">Phone Number:</label>
+          <input type="tel" id="phone" required
+                 style="width: 100%; padding: 8px 12px; margin: 6px 0 15px 0; border: 1px solid #ccc; border-radius: 8px;">
+
+          <label for="query" style="font-weight: 600; color: #555;">Your Query:</label>
+          <textarea id="query" rows="3" required
+                    style="width: 100%; padding: 8px 12px; margin: 6px 0 20px 0; border: 1px solid #ccc; border-radius: 8px; resize: none;"></textarea>
+
+          <button type="submit" 
+                  style="background-color: #ff0000; color: #fff; padding: 10px 0; width: 100%; 
+                         border: none; border-radius: 30px; font-weight: 700; cursor: pointer; font-size: 16px;">
+            Submit
+          </button>
+      </form>
+  </div>
+</div>
+</header>
+
+<section class="topics-detail-section section-padding" id="topics-detail" style="background-color: #fff; padding: 60px 0;">
+  <div class="container" style="max-width: 1140px; margin: 0 auto;">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h2 style="color: #ff0000; font-size: 2.5rem; font-weight: bold;">Lead Generation That Converts</h2>
+        <p style="color: #444; font-size: 1.1rem;">Smart funnels, targeted outreach, and nurturing campaigns to fill your pipeline.</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div style="background-color: #ff8080; padding: 30px; border-radius: 16px; box-shadow: 0 6px 18px rgba(0,0,0,0.15); height: 100%;">
+          <h4 style="color: #fff; font-weight: 600; font-size: 1.4rem;">Targeted Lead Capture</h4>
+          <p style="color: #fff;">We design optimized landing pages and forms that maximize lead capture and reduce drop-offs.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div style="background-color: #ff0000; padding: 30px; border-radius: 16px; box-shadow: 0 6px 18px rgba(0,0,0,0.15); height: 100%;">
+          <h4 style="color: #fff; font-weight: 600; font-size: 1.4rem;">Lead Nurturing Campaigns</h4>
+          <p style="color: #fff;">Personalized email sequences and retargeting ads that build trust and move leads closer to purchase.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div style="background-color: #ff8080; padding: 30px; border-radius: 16px; box-shadow: 0 6px 18px rgba(0,0,0,0.15); height: 100%;">
+          <h4 style="color: #fff; font-weight: 600; font-size: 1.4rem;">CRM Integration & Automation</h4>
+          <p style="color: #fff;">Streamline your sales process with smart CRM setups and automated workflows.</p>
+        </div>
+      </div>
+
+      <div class="col-12 mt-5">
+        <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+          <img src="../images/lead1.AVIF" alt="Lead Capture Funnel" style="width: 48%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+          <img src="../images/lead2.AVIF" alt="Automated Workflow" style="width: 48%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        </div>
+      </div>
+
+      <div class="col-12 mt-5 text-center">
+        <p style="font-size: 1.1rem; color: #333; max-width: 800px; margin: 0 auto;">
+          From lead capture to conversion, our strategies ensure a steady flow of qualified prospects for your sales team.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="topics-detail" style="background-color: #fff; padding: 60px 20px; border-bottom:1px solid #ff0000;">
+  <div style="max-width: 1100px; margin: auto;">
+
+    <h2 style="text-align: center; font-size: 36px; color: #ff0000; margin-bottom: 20px;">
+      Lead Generation Strategies That Work
+    </h2>
+    <p style="text-align: center; color: #333; font-size: 18px; margin-bottom: 50px;">
+      Tailored tactics to attract, engage, and convert your ideal customers efficiently and effectively.
+    </p>
+
+    <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 40px;">
+      <div style="font-size: 40px; color: #ff0000;">
+        <i class="bi bi-magnet-fill"></i>
+      </div>
+      <div>
+        <h4 style="margin: 0; color: #ff0000;">Lead Magnet Creation</h4>
+        <p style="margin: 8px 0 0; color: #444;">Compelling offers like ebooks, webinars, and guides to attract high-quality leads.</p>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 40px;">
+      <div style="font-size: 40px; color: #ff8080;">
+        <i class="bi bi-envelope-paper-fill"></i>
+      </div>
+      <div>
+        <h4 style="margin: 0; color: #ff0000;">Email Marketing Automation</h4>
+        <p style="margin: 8px 0 0; color: #444;">Automated, personalized email sequences that nurture leads and drive conversions.</p>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 40px;">
+      <div style="font-size: 40px; color: #ff0000;">
+        <i class="bi bi-graph-up-arrow"></i>
+      </div>
+      <div>
+        <h4 style="margin: 0; color: #ff0000;">Performance Tracking</h4>
+        <p style="margin: 8px 0 0; color: #444;">Analyze and optimize campaigns using detailed metrics to improve results continually.</p>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 40px;">
+      <div style="font-size: 40px; color: #ff8080;">
+        <i class="bi bi-people-fill"></i>
+      </div>
+      <div>
+        <h4 style="margin: 0; color: #ff0000;">Sales & Marketing Alignment</h4>
+        <p style="margin: 8px 0 0; color: #444;">Seamless integration between your teams to convert leads faster and close more deals.</p>
+      </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 50px;">
+      <a href="javascript:void(0)" onclick="openPopup()" style="background-color: #ff0000; color: #fff; padding: 14px 28px; border-radius: 30px; font-size: 18px; text-decoration: none;">Start Generating Quality Leads Today</a>
+    </div>
+  </div>
+</section>
+
+  <section class="contact-section section-padding section-bg" id="section_5" style="padding: 80px 0; background-color: #f9f9f9;">
+  <div class="container" style="max-width: 1140px; margin: 0 auto;">
+    <div class="row">
+
+      <div class="col-lg-12 col-12 text-center">
+        <h2 class="mb-5" style="font-size: 36px; color: #e60000;">Get in touch</h2>
+      </div>
+
+      <div class="col-lg-6 col-12 mb-4">
+        <form style="background: #fff; padding: 30px; border-radius: 16px; box-shadow: 0 6px 18px rgba(0,0,0,0.1);">
+          <div style="margin-bottom: 20px;">
+            <label for="name" style="display:block; margin-bottom:6px; font-weight:600;">Name:</label>
+            <input type="text" id="name" placeholder="Your Name" style="width: 100%; padding: 10px 15px; border: 1px solid #ccc; border-radius: 8px;">
+          </div>
+          <div style="margin-bottom: 20px;">
+            <label for="email" style="display:block; margin-bottom:6px; font-weight:600;">Email:</label>
+            <input type="email" id="email" placeholder="Your Email" style="width: 100%; padding: 10px 15px; border: 1px solid #ccc; border-radius: 8px;">
+          </div>
+          <div style="margin-bottom: 20px;">
+            <label for="phone" style="display:block; margin-bottom:6px; font-weight:600;">Phone:</label>
+            <input type="tel" id="phone" placeholder="Your Phone Number" style="width: 100%; padding: 10px 15px; border: 1px solid #ccc; border-radius: 8px;">
+          </div>
+          <div style="margin-bottom: 20px;">
+            <label for="query" style="display:block; margin-bottom:6px; font-weight:600;">Query:</label>
+            <textarea id="query" rows="4" placeholder="Your Message" style="width: 100%; padding: 10px 15px; border: 1px solid #ccc; border-radius: 8px;"></textarea>
+          </div>
+          <button type="submit" style="background: #e60000; color: #fff; padding: 10px 24px; border: none; border-radius: 30px; font-weight: 600; font-size: 16px; cursor: pointer;">
+            Submit
+          </button>
+        </form>
+      </div>
+
+ <div class="col-lg-6 col-12 mb-4 d-flex justify-content-center align-items-center">
+  <div style="display: flex; gap: 30px; flex-wrap: wrap; justify-content: center;">
+
+    <div style="text-align: center;">
+      <a href="tel:1234567890" style="display: inline-block; background: linear-gradient(135deg, #ff8080, #ff0000); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <i class="bi bi-telephone-fill"></i>
+      </a>
+      <p style="margin-top: 10px; font-size: 14px;">Call Us</p>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="#" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #f58529, #dd2a7b); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <p style="margin-top: 10px; font-size: 14px;">Instagram</p>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="#" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #1877f2, #004cba); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <p style="margin-top: 10px; font-size: 14px;">Facebook</p>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="#" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #0077b5, #004c70); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <p style="margin-top: 10px; font-size: 14px;">LinkedIn</p>
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+        </main>
+		
+  <footer class="site-footer section-padding">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-12 pb-2">
+                <a class="navbar-brand mb-2" href="index.html">
+                    <img src="../images/logo.png" alt="Postax Technology" height="100px" width="100px">
+                </a>
+                <p class="text-white">Innovative digital solutions tailored for your business growth.</p>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <h6 class="site-footer-title mb-3">Quick Links</h6>
+             <ul class="site-footer-links">
+                    <li class="site-footer-link-item">
+                        <a href="../" class="site-footer-link">Home</a>
+                    </li>
+                    <li class="site-footer-link-item">
+                        <a href="../" class="site-footer-link">How It Works</a>
+                    </li>
+                    <li class="site-footer-link-item">
+                        <a href="../" class="site-footer-link">FAQs</a>
+                    </li>
+                    <li class="site-footer-link-item">
+                        <a href="../contact" class="site-footer-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+      <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+                <h6 class="site-footer-title mb-3 text-center">Contact Info</h6>
+                
+                  <p class="text-white d-flex"><a href="mailto:postaxtechnology@gmail.com" class="site-footer-link"><i class="fa-solid fa-envelope"></i> postaxtechnology@gmail.com</a>
+                </p>
+                  <div style="display: flex; gap: 30px; flex-wrap: wrap; justify-content: center;">
+
+    <div style="text-align: center;">
+      <a href="#" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #f58529, #dd2a7b); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <p style="margin-top: 10px; font-size: 14px;">Instagram</p>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="#" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #1877f2, #004cba); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <p style="margin-top: 10px; font-size: 14px;">Facebook</p>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="#" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #0077b5, #004c70); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <p style="margin-top: 10px; font-size: 14px;">LinkedIn</p>
+    </div>
+
+  </div>
+            
+            </div>
+            <div class="col-lg-12 col-md-4 col-12 mt-lg-0 ms-auto">
+               
+                <p class="copyright-text mt-lg-5 mt-4">
+                    &copy; 2025 Postax Technology. All rights reserved.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+            <script>
+     function openPopup() {
+    document.getElementById('popupForm').style.display = 'flex';
+  }
+  function closePopup() {
+    document.getElementById('popupForm').style.display = 'none';
+  }
+</script>
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="../js/jquery.sticky.js"></script>
+        <script src="../js/custom.js"></script>
+
+    </body>
+</html>
