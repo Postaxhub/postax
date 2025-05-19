@@ -1,0 +1,19 @@
+
+.login-bg {
+  background: linear-gradient(to bottom right, #ff8080, #e60000);
+}
+
+.login-title {
+  color: #ff0000;
+  font-weight: 700;
+}
+
+.login-link {
+  color: #e60000;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
