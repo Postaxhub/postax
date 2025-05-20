@@ -392,6 +392,9 @@ strong {
 }
 
 @media screen and (min-width: 992px) {
+  *{
+    overflow-x: hidden;
+  }
   .navbar .dropdown:hover .dropdown-menu {
     opacity: 1;
     margin-top: 0;
