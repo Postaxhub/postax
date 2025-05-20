@@ -51,7 +51,9 @@ body {
   font-family: var(--body-font-family); 
 }
 
-
+  body{
+    overflow-x: hidden;
+  }
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
@@ -392,7 +394,7 @@ strong {
 }
 
 @media screen and (min-width: 992px) {
-  *{
+  body{
     overflow-x: hidden;
   }
   .navbar .dropdown:hover .dropdown-menu {
