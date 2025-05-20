@@ -51,12 +51,16 @@ body {
   font-family: var(--body-font-family); 
 }
 
-  body{
+  html,body{
     overflow-x: hidden;
+    width: 100%;
+    box-sizing: border-box;
   }
   @media only screen and (max-width: 900px){
     body{
     overflow-x: hidden;
+    width: 100%;
+    box-sizing: border-box;
   } 
   }
 
