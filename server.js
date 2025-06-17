@@ -4,11 +4,11 @@ const cors = require("cors");
 const app = express();
 const PORT = 3000;
 
-// Middlewares
+
 app.use(cors());
 app.use(express.json());
 
-// DB Connection
+
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
@@ -24,7 +24,7 @@ db.connect(err => {
   console.log("✅ Connected to MySQL database.");
 });
 
-// Contact route
+
 app.post("/contact", (req, res) => {
   const { name, email, subject, message } = req.body;
 
@@ -48,7 +48,7 @@ app.post("/contact", (req, res) => {
   });
 });
 
-// Start server
+
 app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
 });

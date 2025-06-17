@@ -295,7 +295,7 @@ src="https://www.facebook.com/tr?id=1756952135170174&ev=PageView&noscript=1"
     const formData = { name, email, subject, message };
 
     try {
-      const res = await fetch("http://localhost:3000/contact", {
+      const res = await fetch("https://postax.in/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
