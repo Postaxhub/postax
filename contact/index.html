@@ -165,7 +165,7 @@ src="https://www.facebook.com/tr?id=1756952135170174&ev=PageView&noscript=1"
             </div>
 
             <div class="col-lg-6 col-12">
-                <form action="#" method="post" class="custom-form contact-form" role="form">
+                <form id="contactForm" method="post" class="custom-form contact-form" role="form">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="form-floating">
@@ -283,6 +283,30 @@ src="https://www.facebook.com/tr?id=1756952135170174&ev=PageView&noscript=1"
         </div>
     </div>
 </footer>
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const formData = new FormData(this);
+
+  fetch("contact-api.php", {
+    method: "POST",
+    body: formData
+  })
+  .then(res => res.json())
+  .then(data => {
+    alert(data.message);
+    if (data.status === "success") {
+      document.getElementById("contactForm").reset();
+    }
+  })
+  .catch(err => {
+    alert("Something went wrong. Please try again.");
+    console.error(err);
+  });
+});
+</script>
+
 
         <script src="../js/jquery.min.js"></script>
         <script src="../js/bootstrap.bundle.min.js"></script>
