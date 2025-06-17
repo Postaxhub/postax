@@ -1,39 +1,45 @@
+
 const express = require("express");
 const cors = require("cors");
-const mysql = require("mysql2");
-require("dotenv").config(); // if using .env
+const bodyParser = require("body-parser");
+const mysql = require("mysql2"); 
 
 const app = express();
-app.use(cors());
-app.use(express.json());
+const port = 3000;
 
+app.use(cors());
+app.use(bodyParser.json());
+
+// DB connection
 const db = mysql.createConnection({
-  host: process.env.DB_HOST || "localhost",
-  user: process.env.DB_USER || "root",
-  password: process.env.DB_PASS || "",
-  database: process.env.DB_NAME || "form_postax"
+  host: "localhost",
+  user: "",
+  password: "",
+  database: "form_postax",
 });
 
 db.connect((err) => {
   if (err) {
-    console.error("DB connection failed:", err);
+    console.error("Database connection error:", err);
     return;
   }
-  console.log("✅ Connected to DB");
+  console.log("Connected to DB");
 });
 
-app.post("/contact", (req, res) => {
+
+app.post("/api/contact", (req, res) => {
   const { name, email, subject, message } = req.body;
 
-  const sql = "INSERT INTO contact_form (name, email, subject, message) VALUES (?, ?, ?, ?)";
+  const sql = "INSERT INTO contacts (name, email, subject, message) VALUES (?, ?, ?, ?)";
   db.query(sql, [name, email, subject, message], (err, result) => {
     if (err) {
-      console.error("Insert error:", err);
-      return res.status(500).json({ message: "Server error" });
+      console.error("DB insert error:", err);
+      return res.status(500).json({ message: "Internal Server Error" });
     }
-    res.json({ message: "Thank you! We'll contact you soon." });
+    res.json({ message: "Message received! We'll get back to you soon." });
   });
 });
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
+});
