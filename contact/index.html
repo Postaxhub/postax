@@ -289,7 +289,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
 
   const formData = new FormData(this);
 
-  fetch("contact-api.php", {
+  fetch("../contact-api.php", {
     method: "POST",
     body: formData
   })
