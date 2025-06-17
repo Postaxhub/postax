@@ -1,21 +1,36 @@
 <?php
-// Enable full error reporting for debugging (disable in production)
+// Show all errors for debugging (disable in production)
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+// Only allow POST requests
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    http_response_code(405); // Method Not Allowed
+    echo json_encode(["status" => "error", "message" => "Only POST requests are allowed."]);
+    exit;
+}
+
 // Set header for JSON response
 header("Content-Type: application/json");
 
-// Get data from POST
-$name    = $_POST['name'] ?? '';
-$email   = $_POST['email'] ?? '';
-$subject = $_POST['subject'] ?? '';
-$message = $_POST['message'] ?? '';
+// (Optional) CORS support if needed
+// header("Access-Control-Allow-Origin: *");
+
+// Get and sanitize input
+$name    = trim($_POST['name'] ?? '');
+$email   = trim($_POST['email'] ?? '');
+$subject = trim($_POST['subject'] ?? '');
+$message = trim($_POST['message'] ?? '');
 
 // Basic validation
 if (!$name || !$email || !$subject || !$message) {
     echo json_encode(["status" => "error", "message" => "All fields are required."]);
+    exit;
+}
+
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    echo json_encode(["status" => "error", "message" => "Invalid email address."]);
     exit;
 }
 
