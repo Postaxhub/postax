@@ -12,9 +12,9 @@ https://templatemo.com/tm-590-topic-listing
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #ff0000;
-  --secondary-color:              #ff8080;
+  --secondary-color:              #b30000;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #ff8080;
+  --custom-btn-bg-color:          #b30000;
   --custom-btn-bg-hover-color:    #ff0000;
   --dark-color:                   #000000;
   --p-color:                      #717275;
@@ -160,7 +160,7 @@ strong {
 }
 
 .section-overlay {
-  background-image: linear-gradient(15deg, #ff0000 0%, #ff8080 100%);
+  background-image: linear-gradient(15deg, #ff0000 0%, #b30000 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -261,7 +261,8 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image: linear-gradient(15deg, #ff0000 0%, #ff8080 100%);
+  /* background-image: linear-gradient(15deg, #ff0000 0%, #b30000 100%); */
+  background-image: url(../images/sitelanding.avif) !important;
   padding-top: 150px;
   padding-bottom: 80px;
 }
@@ -301,7 +302,7 @@ strong {
 }
 
 .navbar {
-  background: transparent;
+  background:  #b30000;
   border-bottom: 1px solid #fff;
   z-index: 9;
 }
@@ -502,7 +503,8 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: linear-gradient(15deg, #ff0000 0%, #ff8080 100%);
+  /* background-image: linear-gradient(15deg, #ff0000 0%, #b30000 100%); */
+  background: url(../images/landing4.avif);
   position: relative;
   overflow: hidden;
   padding-top: 150px;
@@ -540,7 +542,8 @@ strong {
   TOPICS              
 -----------------------------------------*/
 .featured-section {
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
+  background-image: url(../images/landing3.avif);
   border-radius: 0 0 100px 100px;
   padding-bottom: 100px;
 }

@@ -24,6 +24,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
         <link href="css/templatemo-topic-listing.css" rel="stylesheet">      
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -52,6 +53,13 @@ src="https://www.facebook.com/tr?id=1756952135170174&ev=PageView&noscript=1"
   body{
     overflow-x: hidden;
   }
+  .hover-zoom {
+  transition: transform 0.4s ease;
+}
+.hover-zoom:hover {
+  transform: scale(1.05);
+}
+
   @media only screen and (max-width: 900px){
     body{
     overflow-x: hidden;
@@ -201,7 +209,7 @@ src="https://www.facebook.com/tr?id=1756952135170174&ev=PageView&noscript=1"
                                 <p class="text-white">
                                     From design to development and marketing, our team delivers impactful digital experiences tailored for startups and enterprises.
                                 </p>
-                                <a href="#section_2" class="btn custom-btn mt-2 mt-lg-3">Explore Services</a>
+                                <!-- <a href="#section_2" class="btn custom-btn mt-2 mt-lg-3">Talk to Our Team</a> -->
                             </div>
                             <span class="badge bg-light text-dark rounded-pill ms-auto">100+</span>
                         </div>
@@ -231,246 +239,252 @@ src="https://www.facebook.com/tr?id=1756952135170174&ev=PageView&noscript=1"
     </div>
 </section>
 
-       <section class="explore-section section-padding" id="section_2">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2 class="mb-4">What We Offer</h2>
-            </div>
-        </div>
+      <section class="explore-section section-padding" id="section_2">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="mb-2">What We Offer</h2>
+        <p class="text-muted mb-4">All-in-one digital services to grow your business online</p>
+      </div>
     </div>
+  </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="web-tab" data-bs-toggle="tab" data-bs-target="#web-tab-pane" type="button" role="tab" aria-controls="web-tab-pane" aria-selected="true">Web & App</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="crm-tab" data-bs-toggle="tab" data-bs-target="#crm-tab-pane" type="button" role="tab" aria-controls="crm-tab-pane" aria-selected="false">CRM</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="uiux-tab" data-bs-toggle="tab" data-bs-target="#uiux-tab-pane" type="button" role="tab" aria-controls="uiux-tab-pane" aria-selected="false">UI/UX Design</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false">Digital Marketing</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="leadgen-tab" data-bs-toggle="tab" data-bs-target="#leadgen-tab-pane" type="button" role="tab" aria-controls="leadgen-tab-pane" aria-selected="false">Lead Generation</button>
-                </li>
-            </ul>
-        </div>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="web-tab" data-bs-toggle="tab" data-bs-target="#web-tab-pane" type="button" role="tab" aria-controls="web-tab-pane" aria-selected="true">
+            🌐 Web & App
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="crm-tab" data-bs-toggle="tab" data-bs-target="#crm-tab-pane" type="button" role="tab" aria-controls="crm-tab-pane" aria-selected="false">
+            📊 CRM
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="uiux-tab" data-bs-toggle="tab" data-bs-target="#uiux-tab-pane" type="button" role="tab" aria-controls="uiux-tab-pane" aria-selected="false">
+            🎨 UI/UX
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false">
+            📢 Marketing
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="leadgen-tab" data-bs-toggle="tab" data-bs-target="#leadgen-tab-pane" type="button" role="tab" aria-controls="leadgen-tab-pane" aria-selected="false">
+            🎯 Lead Generation
+          </button>
+        </li>
+      </ul>
     </div>
+  </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="tab-content" id="myTabContent">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="tab-content pt-4" id="myTabContent">
 
-                    
-                    <div class="tab-pane fade show active" id="web-tab-pane" role="tabpanel" aria-labelledby="web-tab">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-12 mb-4">
-                                <div class="custom-block bg-white shadow-lg">
-                                    <a href="./website-development">
-                                        <div class="d-flex">
-                                            <div>
-                                                <h5 class="mb-2">Website Development</h5>
-                                                <p class="mb-0">Responsive, SEO-friendly websites that deliver results.</p>
-                                            </div>
-                                            <span class="badge bg-design rounded-pill ms-auto">40+</span>
-                                        </div>
-                                        <img src="images/service1.avif" class="custom-block-image img-fluid" alt="Website Development">
-                                    </a>
-                                </div>
-                            </div>
+          <!-- Web & App Tab -->
+          <div class="tab-pane fade show active" id="web-tab-pane" role="tabpanel" aria-labelledby="web-tab">
+            <div class="row gy-4">
 
-                            <div class="col-lg-6 col-md-6 col-12 mb-4">
-                                <div class="custom-block bg-white shadow-lg">
-                                    <a href="./mobile-development">
-                                        <div class="d-flex">
-                                            <div>
-                                                <h5 class="mb-2">Mobile App Development</h5>
-                                                <p class="mb-0">Custom Android & iOS apps to scale your business.</p>
-                                            </div>
-                                            <span class="badge bg-design rounded-pill ms-auto">10+</span>
-                                        </div>
-                                        <img src="images/service2.avif" class="custom-block-image img-fluid" alt="Mobile App">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="custom-block bg-white shadow-lg rounded-4 p-4 h-100">
+                  <a href="./website-development" class="text-decoration-none text-dark">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <div>
+                        <h5 class="mb-2">Website Development</h5>
+                        <p class="text-muted">Responsive, SEO-optimized websites that drive conversions.</p>
+                      </div>
+                      <span class="badge bg-design rounded-pill">40+</span>
                     </div>
-
-
-                    <div class="tab-pane fade" id="crm-tab-pane" role="tabpanel" aria-labelledby="crm-tab">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-12 mb-4">
-                                <div class="custom-block bg-white shadow-lg">
-                                    <a href="./crm">
-                                        <div class="d-flex">
-                                            <div>
-                                                <h5 class="mb-2">Custom CRM Solutions</h5>
-                                                <p class="mb-0">Streamline sales and customer management with tailored CRM.</p>
-                                            </div>
-                                            <span class="badge bg-primary rounded-pill ms-auto">10+</span>
-                                        </div>
-                                        <img src="images/service3.avif" class="custom-block-image img-fluid" alt="CRM Solutions">
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    
-                    <div class="tab-pane fade" id="uiux-tab-pane" role="tabpanel" aria-labelledby="uiux-tab">
-                        <div class="row">
-
-                          <div class="col-lg-6 col-md-6 col-12 mb-4">
-                            <div class="custom-block bg-white shadow-lg">
-                                <a href="./ui-ux">
-                                    <div class="d-flex">
-                                        <div>
-                                            <h5 class="mb-2">UI/UX Design</h5>
-                                            <p class="mb-0">Designing intuitive and engaging user experiences across all devices.</p>
-                                        </div>
-                                        <span class="badge bg-info rounded-pill ms-auto">30+</span>
-                                    </div>
-                                    <img src="images/service4.avif" class="custom-block-image img-fluid" alt="UI/UX Design">
-                                </a>
-                            </div>
-                        </div>
-
-                        </div>
-                    </div>
-
-                
-                    <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-12 mb-4">
-                                <div class="custom-block bg-white shadow-lg">
-                                    <a href="./digital-marketing">
-                                        <div class="d-flex">
-                                            <div>
-                                                <h5 class="mb-2">SEO & SEM</h5>
-                                                <p class="mb-0">Improve search visibility with expert SEO and Google Ads.</p>
-                                            </div>
-                                            <span class="badge bg-warning rounded-pill ms-auto">20+</span>
-                                        </div>
-                                        <img src="images/service7.avif" class="custom-block-image img-fluid" alt="SEO">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-md-6 col-12 mb-4">
-                                <div class="custom-block bg-white shadow-lg">
-                                    <a href="./digital-marketing">
-                                        <div class="d-flex">
-                                            <div>
-                                                <h5 class="mb-2">Social Media Marketing</h5>
-                                                <p class="mb-0">Reach your audience with creative social campaigns.</p>
-                                            </div>
-                                            <span class="badge bg-warning rounded-pill ms-auto">20+</span>
-                                        </div>
-                                        <img src="images/service5.avif" class="custom-block-image img-fluid" alt="Social Media">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-                    <div class="tab-pane fade" id="leadgen-tab-pane" role="tabpanel" aria-labelledby="leadgen-tab">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-12 mb-4">
-                                <div class="custom-block bg-white shadow-lg">
-                                    <a href="./lead-generation">
-                                        <div class="d-flex">
-                                            <div>
-                                                <h5 class="mb-2">Lead Funnels</h5>
-                                                <p class="mb-0">Convert visitors into leads through high-performing funnels.</p>
-                                            </div>
-                                            <span class="badge bg-success rounded-pill ms-auto">100+</span>
-                                        </div>
-                                        <img src="images/service6.avif" class="custom-block-image img-fluid" alt="Lead Funnel">
-                                    </a>
-                                </div>
-                            </div>
-
-                         
-                        </div>
-                    </div>
-
+                    <img src="images/website1.avif" class="custom-block-image img-fluid rounded-3 hover-zoom mt-3" alt="Website Development">
+                  </a>
                 </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="custom-block bg-white shadow-lg rounded-4 p-4 h-100">
+                  <a href="./mobile-development" class="text-decoration-none text-dark">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <div>
+                        <h5 class="mb-2">Mobile App Development</h5>
+                        <p class="text-muted">Scalable Android & iOS apps to grow your business.</p>
+                      </div>
+                      <span class="badge bg-design rounded-pill">10+</span>
+                    </div>
+                    <img src="images/service2.avif" class="custom-block-image img-fluid rounded-3 hover-zoom mt-3" alt="Mobile App">
+                  </a>
+                </div>
+              </div>
+
             </div>
+          </div>
+
+          <!-- CRM Tab -->
+          <div class="tab-pane fade" id="crm-tab-pane" role="tabpanel" aria-labelledby="crm-tab">
+            <div class="row gy-4">
+              <div class="col-lg-6 col-md-6">
+                <div class="custom-block bg-white shadow-lg rounded-4 p-4 h-100">
+                  <a href="./crm" class="text-decoration-none text-dark">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <div>
+                        <h5 class="mb-2">Custom CRM Solutions</h5>
+                        <p class="text-muted">Streamline sales, leads & client communication.</p>
+                      </div>
+                      <span class="badge bg-primary rounded-pill">10+</span>
+                    </div>
+                    <img src="images/service3.avif" class="custom-block-image img-fluid rounded-3 hover-zoom mt-3" alt="CRM Solutions">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- UI/UX Tab -->
+          <div class="tab-pane fade" id="uiux-tab-pane" role="tabpanel" aria-labelledby="uiux-tab">
+            <div class="row gy-4">
+              <div class="col-lg-6 col-md-6">
+                <div class="custom-block bg-white shadow-lg rounded-4 p-4 h-100">
+                  <a href="./ui-ux" class="text-decoration-none text-dark">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <div>
+                        <h5 class="mb-2">UI/UX Design</h5>
+                        <p class="text-muted">Crafting user-friendly and visually appealing designs.</p>
+                      </div>
+                      <span class="badge bg-info rounded-pill">30+</span>
+                    </div>
+                    <img src="images/service4.avif" class="custom-block-image img-fluid rounded-3 hover-zoom mt-3" alt="UI/UX Design">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Digital Marketing Tab -->
+          <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab">
+            <div class="row gy-4">
+
+              <div class="col-lg-6 col-md-6">
+                <div class="custom-block bg-white shadow-lg rounded-4 p-4 h-100">
+                  <a href="./digital-marketing" class="text-decoration-none text-dark">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <div>
+                        <h5 class="mb-2">SEO & SEM</h5>
+                        <p class="text-muted">Improve search rankings with targeted strategies.</p>
+                      </div>
+                      <span class="badge bg-warning rounded-pill">20+</span>
+                    </div>
+                    <img src="images/service7.avif" class="custom-block-image img-fluid rounded-3 hover-zoom mt-3" alt="SEO">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-6">
+                <div class="custom-block bg-white shadow-lg rounded-4 p-4 h-100">
+                  <a href="./digital-marketing" class="text-decoration-none text-dark">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <div>
+                        <h5 class="mb-2">Social Media Marketing</h5>
+                        <p class="text-muted">Run engaging campaigns across all platforms.</p>
+                      </div>
+                      <span class="badge bg-warning rounded-pill">20+</span>
+                    </div>
+                    <img src="images/service5.avif" class="custom-block-image img-fluid rounded-3 hover-zoom mt-3" alt="Social Media">
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          
+          <div class="tab-pane fade" id="leadgen-tab-pane" role="tabpanel" aria-labelledby="leadgen-tab">
+            <div class="row gy-4">
+              <div class="col-lg-6 col-md-6">
+                <div class="custom-block bg-white shadow-lg rounded-4 p-4 h-100">
+                  <a href="./lead-generation" class="text-decoration-none text-dark">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <div>
+                        <h5 class="mb-2">Lead Funnels</h5>
+                        <p class="text-muted">Turn website visitors into quality leads.</p>
+                      </div>
+                      <span class="badge bg-success rounded-pill">100+</span>
+                    </div>
+                    <img src="images/service6.avif" class="custom-block-image img-fluid rounded-3 hover-zoom mt-3" alt="Lead Funnel">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+      </div>
     </div>
+  </div>
 </section>
 
-     <section class="timeline-section section-padding" id="section_3">
-    <div class="section-overlay"></div>
+  <section class="timeline-section section-padding bg-dark text-white" id="section_3">
+  <div class="container">
+    <div class="row mb-5 text-center">
+      <div class="col-12">
+        <h2 class="" style="color: #b30000;">How We Deliver Success</h2>
+      </div>
+    </div>
 
-    <div class="container">
-        <div class="row">
-
-            <div class="col-12 text-center">
-                <h2 class="text-white mb-4">How We Deliver Success</h2>
-            </div>
-
-            <div class="col-lg-10 col-12 mx-auto">
-                <div class="timeline-container">
-                    <ul class="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
-                        <div class="list-progress">
-                            <div class="inner"></div>
-                        </div>
-
-                        <li>
-                            <h4 class="text-white mb-3">Discover Your Vision</h4>
-                            <p class="text-white">
-                                We dive deep into understanding your goals and challenges to tailor the perfect digital solution.
-                            </p>
-                            <div class="icon-holder">
-                              <i class="bi-lightbulb"></i>
-                            </div>
-                        </li>
-
-                        <li>
-                            <h4 class="text-white mb-3">Innovate & Build</h4>
-                            <p class="text-white">
-                                Our expert team crafts stunning websites, apps, and CRM systems with seamless UI/UX for maximum impact.
-                            </p>
-                            <div class="icon-holder">
-                              <i class="bi-code-slash"></i>
-                            </div>
-                        </li>
-
-                        <li>
-                            <h4 class="text-white mb-3">Launch & Grow</h4>
-                            <p class="text-white">
-                                We drive targeted digital marketing and lead generation to expand your reach and boost revenue.
-                            </p>
-                            <div class="icon-holder">
-                              <i class="bi-rocket"></i>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-12  mt-5">
-                <p class="text-white text-center">
-                    Ready to transform your business? 
-                    <a href="javascript:void(0)" onclick="openPopup()" class="btn custom-btn custom-border-btn ms-3" style="color:#fff; border: 1px solid #fff;">Get Started Today</a>
-                </p>
-                <div id="popupForm" style="display: none; position: fixed; z-index: 9999; top: 0; left: 0; 
-     width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.6); 
-     justify-content: center; align-items: center;">
-
-  <div style="background: #fff; padding: 25px 30px; border-radius: 15px; width: 350px; 
-              box-shadow: 0 10px 30px rgba(0,0,0,0.15); position: relative; font-family: Arial, sans-serif;">
+    <div class="row justify-content-center text-center">
       
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="bg-white text-dark p-4 rounded-4 shadow h-100">
+          <div class="mb-3">
+            <i class="bi bi-search fs-1 text-primary"></i>
+          </div>
+          <h5>Discover Your Vision</h5>
+          <p>We dive deep into understanding your goals and challenges to tailor the perfect digital solution.</p>
+        </div>
+      </div>
+
+    
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="bg-white text-dark p-4 rounded-4 shadow h-100">
+          <div class="mb-3">
+            <i class="bi bi-lightbulb fs-1 text-warning"></i>
+          </div>
+          <h5>Innovate & Build</h5>
+          <p>Our expert team crafts stunning websites, apps, and CRM systems with seamless UI/UX for maximum impact.</p>
+        </div>
+      </div>
+
+    
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="bg-white text-dark p-4 rounded-4 shadow h-100">
+          <div class="mb-3">
+           <i class="bi bi-rocket-takeoff fs-1 text-success"></i>
+          </div>
+          <h5>Launch & Grow</h5>
+          <p>We drive targeted digital marketing and lead generation to expand your reach and boost revenue.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-12 text-center">
+        <p class="text-white">
+          Ready to transform your business?
+          <a href="javascript:void(0)" onclick="openPopup()" class="btn btn-outline-light ms-3" style="background-color: #b30000; border: none;">Get Started Today</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Popup Contact Form -->
+  <div id="popupForm" style="display: none; position: fixed; z-index: 9999; top: 0; left: 0; 
+    width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.6); justify-content: center; align-items: center;">
+    <div style="background: #fff; padding: 25px 30px; border-radius: 15px; width: 350px; 
+                box-shadow: 0 10px 30px rgba(0,0,0,0.15); position: relative; font-family: Arial, sans-serif;">
+
       <button onclick="closePopup()" 
               style="position: absolute; top: 12px; right: 15px; background: transparent; border: none; 
                      font-size: 26px; color: #999; cursor: pointer; line-height: 1;">&times;</button>
@@ -478,38 +492,33 @@ src="https://www.facebook.com/tr?id=1756952135170174&ev=PageView&noscript=1"
       <h3 style="margin-bottom: 20px; text-align: center; color: #333; font-weight: 700;">Contact Us</h3>
 
       <form onsubmit="event.preventDefault(); alert('Form submitted!'); closePopup();">
-          <label for="name" style="font-weight: 600; color: #555;">Name:</label>
-          <input type="text" id="name" required
-                 style="width: 100%; padding: 8px 12px; margin: 6px 0 15px 0; border: 1px solid #ccc; border-radius: 8px;">
+        <label for="name" style="font-weight: 600; color: #555;">Name:</label>
+        <input type="text" id="name" required
+               style="width: 100%; padding: 8px 12px; margin: 6px 0 15px 0; border: 1px solid #ccc; border-radius: 8px;">
 
-          <label for="email" style="font-weight: 600; color: #555;">Email:</label>
-          <input type="email" id="email" required
-                 style="width: 100%; padding: 8px 12px; margin: 6px 0 15px 0; border: 1px solid #ccc; border-radius: 8px;">
+        <label for="email" style="font-weight: 600; color: #555;">Email:</label>
+        <input type="email" id="email" required
+               style="width: 100%; padding: 8px 12px; margin: 6px 0 15px 0; border: 1px solid #ccc; border-radius: 8px;">
 
-          <label for="phone" style="font-weight: 600; color: #555;">Phone Number:</label>
-          <input type="tel" id="phone" required
-                 style="width: 100%; padding: 8px 12px; margin: 6px 0 15px 0; border: 1px solid #ccc; border-radius: 8px;">
+        <label for="phone" style="font-weight: 600; color: #555;">Phone Number:</label>
+        <input type="tel" id="phone" required
+               style="width: 100%; padding: 8px 12px; margin: 6px 0 15px 0; border: 1px solid #ccc; border-radius: 8px;">
 
-          <label for="query" style="font-weight: 600; color: #555;">Your Query:</label>
-          <textarea id="query" rows="3" required
-                    style="width: 100%; padding: 8px 12px; margin: 6px 0 20px 0; border: 1px solid #ccc; border-radius: 8px; resize: none;"></textarea>
+        <label for="query" style="font-weight: 600; color: #555;">Your Query:</label>
+        <textarea id="query" rows="3" required
+                  style="width: 100%; padding: 8px 12px; margin: 6px 0 20px 0; border: 1px solid #ccc; border-radius: 8px; resize: none;"></textarea>
 
-          <button type="submit" 
-                  style="background-color: #ff0000; color: #fff; padding: 10px 0; width: 100%; 
-                         border: none; border-radius: 30px; font-weight: 700; cursor: pointer; font-size: 16px;">
-            Submit
-          </button>
+        <button type="submit" 
+                style="background-color: #ff0000; color: #fff; padding: 10px 0; width: 100%; 
+                       border: none; border-radius: 30px; font-weight: 700; cursor: pointer; font-size: 16px;">
+          Submit
+        </button>
       </form>
-  </div>
-</div>
-            </div>
-
-        </div>
     </div>
+  </div>
 </section>
 
-
-           <section class="faq-section section-padding" id="section_4">
+    <section class="faq-section section-padding" id="section_4">
     <div class="container">
         <div class="row">
 
@@ -608,7 +617,7 @@ src="https://www.facebook.com/tr?id=1756952135170174&ev=PageView&noscript=1"
   <div style="display: flex; gap: 30px; flex-wrap: wrap; justify-content: center;">
 
     <div style="text-align: center;">
-      <a href="tel:1234567890" style="display: inline-block; background: linear-gradient(135deg, #ff8080, #ff0000); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+      <a href="tel:1234567890" style="display: inline-block; background: linear-gradient(135deg, #b30000, #ff0000); color: #fff; padding: 14px 20px; border-radius: 50%; font-size: 24px; width: 60px; height: 60px; text-align: center; line-height: 30px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
         <i class="bi bi-telephone-fill"></i>
       </a>
       <p style="margin-top: 10px; font-size: 14px;">Call Us</p>

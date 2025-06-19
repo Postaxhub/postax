@@ -142,13 +142,13 @@ src="https://www.facebook.com/tr?id=1756952135170174&ev=PageView&noscript=1"
                         <div class="col-lg-5 col-12">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="../" style="color:#fff;">Homepage</a></li>
+                                    <li class="breadcrumb-item"><a href="../" style="color:#000;">Homepage</a></li>
 
-                                    <li class="breadcrumb-item active" aria-current="page">Contact Form</li>
+                                    <li class="breadcrumb-item active" aria-current="page" style="color: #000;">Contact Form</li>
                                 </ol>
                             </nav>
 
-                            <h2 class="text-white">Contact Form</h2>
+                            <h2 style="color: #b30000;">Contact Form</h2>
                         </div>
 
                     </div>
@@ -283,33 +283,38 @@ src="https://www.facebook.com/tr?id=1756952135170174&ev=PageView&noscript=1"
         </div>
     </div>
 </footer>
- <script>
-  document.getElementById("contactForm").addEventListener("submit", async function (e) {
+
+<script>
+    document.getElementById('contactForm').addEventListener('submit', async function (e) {
     e.preventDefault();
 
-    const name = document.getElementById("name").value.trim();
-    const email = document.getElementById("email").value.trim();
-    const subject = document.getElementById("subject").value.trim();
-    const message = document.getElementById("message").value.trim();
-
-    const formData = { name, email, subject, message };
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const subject = document.getElementById('subject').value.trim();
+    const message = document.getElementById('message').value.trim();
 
     try {
-      const res = await fetch("https://api.postax.in/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(formData)
-      });
+        const response = await fetch('contact.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ name, email, subject, message })
+        });
 
-      const data = await res.json();
-      alert(data.message); 
-    } catch (err) {
-      console.error("Submit error:", err);
-      alert("Something went wrong. Please try again later.");
+        if (!response.ok) {
+            const errorText = await response.text();
+            throw new Error(`HTTP error! Status: ${response.status}. Response: ${errorText}`);
+        }
+
+        const result = await response.json();
+        alert(result.message);
+    } catch (error) {
+        console.error('Error:', error);
+        alert('Something went wrong. Please try again later.');
     }
-  });
+});
+
 </script>
 
         <script src="../js/jquery.min.js"></script>
