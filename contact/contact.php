@@ -1,39 +1,36 @@
 <?php
-header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Methods: POST"); // Add this
 header("Content-Type: application/json");
 
-$data = json_decode(file_get_contents("php://input"), true);
+$host = "168.231.121.76";
+$dbname = "postax.in";
+$username = "postax.in";
+$password = "Postax@#2025";
 
-if (!isset($data['name'], $data['email'], $data['subject'], $data['message'])) {
-    http_response_code(400);
-    echo json_encode(["status" => "error", "message" => "Missing fields"]);
-    exit;
-}
+try {
+    $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$name = $data['name'];
-$email = $data['email'];
-$subject = $data['subject'];
-$message = $data['message'];
 
-$conn = new mysqli("localhost", "root", "", "contact_postax");
+    $data = json_decode(file_get_contents("php://input"));
 
-if ($conn->connect_error) {
+    $stmt = $conn->prepare("INSERT INTO contacts (name, email, subject, message) VALUES (?, ?, ?, ?)");
+    $stmt->execute([
+        $data->name,
+        $data->email,
+        $data->subject,
+        $data->message
+    ]);
+
+    echo json_encode([
+        "status" => "success",
+        "message" => "Thanks for contacting us! Our team will reach out to you within 24 hours."
+    ]);
+
+} catch (PDOException $e) {
     http_response_code(500);
-    echo json_encode(["status" => "error", "message" => "Database connection failed"]);
-    exit;
+    echo json_encode([
+        "status" => "error",
+        "message" => "Database error: " . $e->getMessage()
+    ]);
 }
-
-$stmt = $conn->prepare("INSERT INTO contacts (name, email, subject, message) VALUES (?, ?, ?, ?)");
-$stmt->bind_param("ssss", $name, $email, $subject, $message);
-
-if ($stmt->execute()) {
-    echo json_encode(["status" => "success", "message" => "Thank you for reaching out! Our team will get in touch with you within 24 hours."]);
-} else {
-    http_response_code(500);
-    echo json_encode(["status" => "error", "message" => "Insert failed"]);
-}
-
-$stmt->close();
-$conn->close();
 ?>

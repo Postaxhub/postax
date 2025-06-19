@@ -165,40 +165,39 @@ src="https://www.facebook.com/tr?id=1756952135170174&ev=PageView&noscript=1"
             </div>
 
             <div class="col-lg-6 col-12">
-                    <form id="contactForm" class="custom-form contact-form">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="form-floating">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="">
-                                <label for="floatingInput">Full Name:</label>
-                            </div>
-                        </div>
+  <form id="contactForm" class="custom-form contact-form">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-12">
+      <div class="form-floating">
+        <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
+        <label for="name">Full Name</label>
+      </div>
+    </div>
 
-                        <div class="col-lg-6 col-md-6 col-12"> 
-                            <div class="form-floating">
-                                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="">
-                                <label for="floatingInput">Email Address</label>
-                            </div>
-                        </div>
+    <div class="col-lg-6 col-md-6 col-12"> 
+      <div class="form-floating">
+        <input type="email" name="email" id="email" class="form-control" placeholder="Email address" required>
+        <label for="email">Email Address</label>
+      </div>
+    </div>
 
-                        <div class="col-lg-12 col-12">
-                            <div class="form-floating">
-                                <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required="">
-                                <label for="floatingInput">Project Type (e.g., CRM, Website,Mobile App...)</label>
-                            </div>
+    <div class="col-lg-12 col-12">
+      <div class="form-floating">
+        <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required>
+        <label for="subject">Project Type (e.g., CRM, Website, Mobile App...)</label>
+      </div>
 
-                            <div class="form-floating mt-3">
-                                <textarea class="form-control" id="message" name="message" placeholder="Project details" rows="5"></textarea>
-                                <label for="floatingTextarea">Briefly describe your needs or goals</label>
-                            </div>
-                        </div>
+      <div class="form-floating mt-3">
+        <textarea class="form-control" id="message" name="message" placeholder="Project details" rows="5" required></textarea>
+        <label for="message">Briefly describe your needs or goals</label>
+      </div>
+    </div>
 
-                        <div class="col-lg-12 col-12 ms-auto mt-4">
-                            <button type="submit" class="form-control">Send Message</button>
-                        </div>
-
-                    </div>
-                </form>
+    <div class="col-lg-12 col-12 ms-auto mt-4">
+      <button type="submit" class="form-control">Send Message</button>
+    </div>
+  </div>
+</form>
             </div>
 
         <div class="col-lg-5 col-12 mx-auto mt-lg-0">
@@ -285,36 +284,39 @@ src="https://www.facebook.com/tr?id=1756952135170174&ev=PageView&noscript=1"
 </footer>
 
 <script>
-    document.getElementById('contactForm').addEventListener('submit', async function (e) {
-    e.preventDefault();
+document.getElementById("contactForm").addEventListener("submit", async function(e) {
+  e.preventDefault();
 
-    const name = document.getElementById('name').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const subject = document.getElementById('subject').value.trim();
-    const message = document.getElementById('message').value.trim();
+  const form = document.getElementById("contactForm");
 
-    try {
-        const response = await fetch('contact.php', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ name, email, subject, message })
-        });
+  const formData = {
+    name: form.name.value.trim(),
+    email: form.email.value.trim(),
+    subject: form.subject.value.trim(),
+    message: form.message.value.trim()
+  };
 
-        if (!response.ok) {
-            const errorText = await response.text();
-            throw new Error(`HTTP error! Status: ${response.status}. Response: ${errorText}`);
-        }
+  try {
+    const response = await fetch("contact/contact.php", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(formData)
+    });
 
-        const result = await response.json();
-        alert(result.message);
-    } catch (error) {
-        console.error('Error:', error);
-        alert('Something went wrong. Please try again later.');
+    const result = await response.json();
+
+    alert(result.message);
+
+    if (result.status === "success") {
+      form.reset();
     }
-});
 
+  } catch (error) {
+    alert("Something went wrong while submitting. Please try again later.");
+  }
+});
 </script>
 
         <script src="../js/jquery.min.js"></script>
