@@ -1,18 +1,19 @@
 <?php
 header("Content-Type: application/json");
 
-$host = "168.231.121.76";
-$dbname = "postax.in";
-$username = "postax.in";
-$password = "Postax@#2025";
+require_once 'config.php';
+
+$data = json_decode(file_get_contents("php://input"));
+
+if (!$data || empty($data->name) || empty($data->email) || empty($data->subject) || empty($data->message)) {
+    echo json_encode([
+        "status" => "error",
+        "message" => "Please fill in all the required fields."
+    ]);
+    exit;
+}
 
 try {
-    $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-
-    $data = json_decode(file_get_contents("php://input"));
-
     $stmt = $conn->prepare("INSERT INTO contacts (name, email, subject, message) VALUES (?, ?, ?, ?)");
     $stmt->execute([
         $data->name,
@@ -25,12 +26,11 @@ try {
         "status" => "success",
         "message" => "Thanks for contacting us! Our team will reach out to you within 24 hours."
     ]);
-
 } catch (PDOException $e) {
     http_response_code(500);
     echo json_encode([
         "status" => "error",
-        "message" => "Database error: " . $e->getMessage()
+        "message" => "Something went wrong while saving your message."
     ]);
 }
 ?>
