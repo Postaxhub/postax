@@ -4,7 +4,7 @@ header("Content-Type: application/json");
 $host = "168.231.121.76";
 $dbname = "postax.in";
 $username = "postax.in";
-$password = "";
+$password = "Postax@#2025";
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
